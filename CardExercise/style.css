@@ -1,0 +1,70 @@
+body{
+    background: radial-gradient(red ,gray);
+}
+.box {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    box-sizing: border-box;
+    box-shadow:  0 0 45px 0 rgba(0, 0, 0, 0.692);
+    color: rgb(68, 66, 66);
+    background: linear-gradient(rgba(0, 0, 0, 0.774),rgba(250, 235, 215, 0.781));
+    border: 5px solid rgba(0, 0, 0,);
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+.imagen {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-image: url(https://th.bing.com/th/id/OIP.IDRvu1gVZHSIMvrezEJpOAHaI-?pid=ImgDet&w=474&h=574&rs=1);
+    background-size: contain;
+    background-position: top;
+    box-shadow:  0 0 20px 2px black;
+}
+.card {
+    margin: auto;
+    padding-bottom: 5%;
+    text-align: center;
+}
+form{
+    width: 200px;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(185, 176, 176);
+    text-shadow:0 0 25px wheat ;
+}
+h2{
+    font-size: 30px;
+    color: rgb(185, 176, 176);
+    text-shadow:0 0 15px wheat ;
+}
+p{
+    width: 70%;
+    margin: auto;
+    text-justify: auto;
+    color: rgb(185, 176, 176);
+}
+input{
+    margin: auto;
+    padding: 5px;
+    margin: 1px;
+    border: 2px rgba(175, 168, 168, 0.37) solid;
+    border-radius: 10px;
+}
+button{
+    margin-top: 5px;
+    padding: 5px 15px;
+    border: 2px solid rgba(128, 128, 128, 0.507);
+    border-radius: 15px;
+}
